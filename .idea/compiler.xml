@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cantoncore" />
+        <module name="cantondaodb" />
+        <module name="cantondaoredis" />
+        <module name="cantonexception" />
+        <module name="cantonserverjetty" />
+        <module name="cantonutil" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

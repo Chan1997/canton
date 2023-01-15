@@ -1,0 +1,8 @@
+pom <scope>compile</scope>:各种定义
+
+compile:默认值，表示当前依赖包，要参与当前项目的编译，后续测试，运行时，打包
+provided:代表在编译和测试的时候用，运行，打包的时候不会打包进去
+test：表示当前依赖包只参与测试时的工作：比如Junit
+runtime：表示当前依赖包只参与运行周期，其他跳过了
+system：从参与度和provided一致，不过被依赖项不会从maven远程仓库下载，而是从本地的系统拿。需要
+systemPath属性来定义路径
